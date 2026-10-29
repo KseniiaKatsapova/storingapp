@@ -21,8 +21,14 @@
                 <input type="text" name="attractie" id="attractie" class="form-input">
             </div>
             <div class="form-group">
-                <label for="type">Type</label>
-                <!-- hier komt een dropdown -->
+                <label for="type">Type</label> 
+                <select id="type" name="type" required>
+  <option value="">-- kies een type --</option>
+  <option value="achtbaan">Achtbaan</option>
+  <option value="draaiend">Draaiende attractie</option>
+  <option value="water">Waterattractie</option>
+  <option value="overig">Overig</option>
+</select>
             </div>
             <div class="form-group">
                 <label for="capaciteit">Capaciteit p/uur:</label>
